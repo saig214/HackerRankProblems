@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * Created by prasanna-4077.
  */
-public class CountingPairsRunner {
+class CountingPairsRunner {
     public static void main(String[] args) {
         List<String> testFilePathList = Arrays.asList(
                 "src/com/hackerrank/problems/countingpairs/test/TestCase1.txt",
@@ -23,7 +23,7 @@ public class CountingPairsRunner {
         testFilePathList.forEach(CountingPairsRunner::getPairs);
     }
 
-    static void getPairs( String filePath ) {
+    private static void getPairs(String filePath) {
         System.out.println("Running " + filePath);
         List<String> numbersAsString = new ArrayList<>();
         int difference = -1;

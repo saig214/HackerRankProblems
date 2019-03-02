@@ -6,7 +6,7 @@ package com.hackerrank.problems.superstack;
  * Skeletal Interface for the basic methods required for building a SuperStack
  */
 
-public interface IntegerSuperStack {
+interface IntegerSuperStack {
 
     /**
      *  Pushes an element to the top of the stack
@@ -21,7 +21,7 @@ public interface IntegerSuperStack {
     void pop();
 
     /**
-     * Add k to each of the bottome elements of the
+     * Add k to each of the bottom elements of the
      * stack.
      *
      * @param element element which is to be added

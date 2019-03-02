@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by prasanna-4077.
  */
-public class MinimumUniqueArraySum {
+class MinimumUniqueArraySum {
     public static int getMinimumUniqueSum(int[] numbers) {
 
         //Sort array using internal QuickSort

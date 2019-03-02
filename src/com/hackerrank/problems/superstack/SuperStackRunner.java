@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 /**
  * Created by prasanna-4077.
  */
-public class SuperStackRunner {
+class SuperStackRunner {
     public static void main(String[] args) {
         List<String> testFilePathList = Arrays.asList(
                 "src/com/hackerrank/problems/superstack/test/TestCase1.txt",

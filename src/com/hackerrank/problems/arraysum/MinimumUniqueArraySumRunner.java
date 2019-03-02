@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by prasanna-4077.
  */
-public class MinimumUniqueArraySumRunner {
+class MinimumUniqueArraySumRunner {
     public static void main(String[] args) {
         List<String> testFilePathList = Arrays.asList(
                 "src/com/hackerrank/problems/arraysum/test/TestCase1.txt",

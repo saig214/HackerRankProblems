@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by prasanna-4077.
  */
-public class CountingPairs {
+class CountingPairs {
     public static int getPairsCount(int[] numbers, int requiredDifference) {
 
         //Sort array using internal QuickSort
