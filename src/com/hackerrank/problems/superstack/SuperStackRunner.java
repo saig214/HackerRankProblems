@@ -31,10 +31,10 @@ public class SuperStackRunner {
         List<String[]> commands = new ArrayList<>();
         try {
             commands = Files.lines(Paths.get(filePath))
-                            .skip(1)        
+                            .skip(1)
                             .map( line -> line.split(" "))
                             .collect(Collectors.toList());
-        } catch (IOException expeption) {
+        } catch (IOException e) {
             System.out.println("Exception in getting file -> " + filePath);
         }
         return commands;
