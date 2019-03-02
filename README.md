@@ -1,6 +1,7 @@
 # HackerRankProblems
 
-All problems have a runner files in their package. To modify test files, modify TextCase.txt files in the respective folders, and add path(s) if necessary to the testFilePathList variable in the runner file.
+All problems have a runner files in their package. 
+To modify test files, modify TextCase.txt files in the respective folders, and add path(s) if necessary to the testFilePathList variable in the runner file. Any file path with valid test cases can be added to testFilePathList variable and the Runner can be invoked again.  
 
 ## Problem 1 : ArraySum
 
