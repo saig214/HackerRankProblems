@@ -2,6 +2,19 @@
 
 All problems have a runner files in their package. To modify test files, modify TextCase.txt files in the respective folders, and add path(s) if necessary to the testFilePathList variable in the runner file.
 
+## Problem 1 : ArraySum
+
+### Runner file :
+countingpairs/MinimumUniqueArraySumRunner.java
+
+### Test Files:
+- arraysum/test/TestCase1.txt
+- arraysum/test/TestCase2.txt
+- arraysum/test/TestCase3.txt
+- arraysum/test/TestCase4.txt
+- arraysum/test/TestCase5.txt
+
+
 ## Problem 2 : SuperStack
 
 ### Runner file :
