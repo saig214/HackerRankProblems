@@ -1,0 +1,11 @@
+10
+push 1000
+push 1000
+push 1000
+push 1000
+push 1000
+inc 1 100
+inc 2 100
+inc 3 100
+inc 4 100
+inc 5 100
